@@ -1,0 +1,583 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		65D6A07427A866F7003BDC8F /* WikiloosaApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65D6A07327A866F7003BDC8F /* WikiloosaApp.swift */; };
+		65D6A07627A866F7003BDC8F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65D6A07527A866F7003BDC8F /* ContentView.swift */; };
+		65D6A07827A866F9003BDC8F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 65D6A07727A866F9003BDC8F /* Assets.xcassets */; };
+		65D6A07B27A866F9003BDC8F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 65D6A07A27A866F9003BDC8F /* Preview Assets.xcassets */; };
+		65D6A08627A866F9003BDC8F /* WikiloosaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65D6A08527A866F9003BDC8F /* WikiloosaTests.swift */; };
+		65D6A09027A866F9003BDC8F /* WikiloosaUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65D6A08F27A866F9003BDC8F /* WikiloosaUITests.swift */; };
+		65D6A09227A866F9003BDC8F /* WikiloosaUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65D6A09127A866F9003BDC8F /* WikiloosaUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		65D6A08227A866F9003BDC8F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 65D6A06827A866F7003BDC8F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 65D6A06F27A866F7003BDC8F;
+			remoteInfo = Wikiloosa;
+		};
+		65D6A08C27A866F9003BDC8F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 65D6A06827A866F7003BDC8F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 65D6A06F27A866F7003BDC8F;
+			remoteInfo = Wikiloosa;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		65D6A07027A866F7003BDC8F /* Wikiloosa.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Wikiloosa.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		65D6A07327A866F7003BDC8F /* WikiloosaApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WikiloosaApp.swift; sourceTree = "<group>"; };
+		65D6A07527A866F7003BDC8F /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		65D6A07727A866F9003BDC8F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		65D6A07A27A866F9003BDC8F /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		65D6A07C27A866F9003BDC8F /* Wikiloosa.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Wikiloosa.entitlements; sourceTree = "<group>"; };
+		65D6A08127A866F9003BDC8F /* WikiloosaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WikiloosaTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		65D6A08527A866F9003BDC8F /* WikiloosaTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WikiloosaTests.swift; sourceTree = "<group>"; };
+		65D6A08B27A866F9003BDC8F /* WikiloosaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WikiloosaUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		65D6A08F27A866F9003BDC8F /* WikiloosaUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WikiloosaUITests.swift; sourceTree = "<group>"; };
+		65D6A09127A866F9003BDC8F /* WikiloosaUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WikiloosaUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		65D6A06D27A866F7003BDC8F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		65D6A07E27A866F9003BDC8F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		65D6A08827A866F9003BDC8F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		65D6A06727A866F7003BDC8F = {
+			isa = PBXGroup;
+			children = (
+				65D6A07227A866F7003BDC8F /* Wikiloosa */,
+				65D6A08427A866F9003BDC8F /* WikiloosaTests */,
+				65D6A08E27A866F9003BDC8F /* WikiloosaUITests */,
+				65D6A07127A866F7003BDC8F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		65D6A07127A866F7003BDC8F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				65D6A07027A866F7003BDC8F /* Wikiloosa.app */,
+				65D6A08127A866F9003BDC8F /* WikiloosaTests.xctest */,
+				65D6A08B27A866F9003BDC8F /* WikiloosaUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		65D6A07227A866F7003BDC8F /* Wikiloosa */ = {
+			isa = PBXGroup;
+			children = (
+				65D6A07327A866F7003BDC8F /* WikiloosaApp.swift */,
+				65D6A07527A866F7003BDC8F /* ContentView.swift */,
+				65D6A07727A866F9003BDC8F /* Assets.xcassets */,
+				65D6A07C27A866F9003BDC8F /* Wikiloosa.entitlements */,
+				65D6A07927A866F9003BDC8F /* Preview Content */,
+			);
+			path = Wikiloosa;
+			sourceTree = "<group>";
+		};
+		65D6A07927A866F9003BDC8F /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				65D6A07A27A866F9003BDC8F /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		65D6A08427A866F9003BDC8F /* WikiloosaTests */ = {
+			isa = PBXGroup;
+			children = (
+				65D6A08527A866F9003BDC8F /* WikiloosaTests.swift */,
+			);
+			path = WikiloosaTests;
+			sourceTree = "<group>";
+		};
+		65D6A08E27A866F9003BDC8F /* WikiloosaUITests */ = {
+			isa = PBXGroup;
+			children = (
+				65D6A08F27A866F9003BDC8F /* WikiloosaUITests.swift */,
+				65D6A09127A866F9003BDC8F /* WikiloosaUITestsLaunchTests.swift */,
+			);
+			path = WikiloosaUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		65D6A06F27A866F7003BDC8F /* Wikiloosa */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 65D6A09527A866F9003BDC8F /* Build configuration list for PBXNativeTarget "Wikiloosa" */;
+			buildPhases = (
+				65D6A06C27A866F7003BDC8F /* Sources */,
+				65D6A06D27A866F7003BDC8F /* Frameworks */,
+				65D6A06E27A866F7003BDC8F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Wikiloosa;
+			productName = Wikiloosa;
+			productReference = 65D6A07027A866F7003BDC8F /* Wikiloosa.app */;
+			productType = "com.apple.product-type.application";
+		};
+		65D6A08027A866F9003BDC8F /* WikiloosaTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 65D6A09827A866F9003BDC8F /* Build configuration list for PBXNativeTarget "WikiloosaTests" */;
+			buildPhases = (
+				65D6A07D27A866F9003BDC8F /* Sources */,
+				65D6A07E27A866F9003BDC8F /* Frameworks */,
+				65D6A07F27A866F9003BDC8F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				65D6A08327A866F9003BDC8F /* PBXTargetDependency */,
+			);
+			name = WikiloosaTests;
+			productName = WikiloosaTests;
+			productReference = 65D6A08127A866F9003BDC8F /* WikiloosaTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		65D6A08A27A866F9003BDC8F /* WikiloosaUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 65D6A09B27A866F9003BDC8F /* Build configuration list for PBXNativeTarget "WikiloosaUITests" */;
+			buildPhases = (
+				65D6A08727A866F9003BDC8F /* Sources */,
+				65D6A08827A866F9003BDC8F /* Frameworks */,
+				65D6A08927A866F9003BDC8F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				65D6A08D27A866F9003BDC8F /* PBXTargetDependency */,
+			);
+			name = WikiloosaUITests;
+			productName = WikiloosaUITests;
+			productReference = 65D6A08B27A866F9003BDC8F /* WikiloosaUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		65D6A06827A866F7003BDC8F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1320;
+				LastUpgradeCheck = 1320;
+				TargetAttributes = {
+					65D6A06F27A866F7003BDC8F = {
+						CreatedOnToolsVersion = 13.2.1;
+					};
+					65D6A08027A866F9003BDC8F = {
+						CreatedOnToolsVersion = 13.2.1;
+						TestTargetID = 65D6A06F27A866F7003BDC8F;
+					};
+					65D6A08A27A866F9003BDC8F = {
+						CreatedOnToolsVersion = 13.2.1;
+						TestTargetID = 65D6A06F27A866F7003BDC8F;
+					};
+				};
+			};
+			buildConfigurationList = 65D6A06B27A866F7003BDC8F /* Build configuration list for PBXProject "Wikiloosa" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 65D6A06727A866F7003BDC8F;
+			productRefGroup = 65D6A07127A866F7003BDC8F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				65D6A06F27A866F7003BDC8F /* Wikiloosa */,
+				65D6A08027A866F9003BDC8F /* WikiloosaTests */,
+				65D6A08A27A866F9003BDC8F /* WikiloosaUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		65D6A06E27A866F7003BDC8F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				65D6A07B27A866F9003BDC8F /* Preview Assets.xcassets in Resources */,
+				65D6A07827A866F9003BDC8F /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		65D6A07F27A866F9003BDC8F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		65D6A08927A866F9003BDC8F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		65D6A06C27A866F7003BDC8F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				65D6A07627A866F7003BDC8F /* ContentView.swift in Sources */,
+				65D6A07427A866F7003BDC8F /* WikiloosaApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		65D6A07D27A866F9003BDC8F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				65D6A08627A866F9003BDC8F /* WikiloosaTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		65D6A08727A866F9003BDC8F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				65D6A09027A866F9003BDC8F /* WikiloosaUITests.swift in Sources */,
+				65D6A09227A866F9003BDC8F /* WikiloosaUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		65D6A08327A866F9003BDC8F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 65D6A06F27A866F7003BDC8F /* Wikiloosa */;
+			targetProxy = 65D6A08227A866F9003BDC8F /* PBXContainerItemProxy */;
+		};
+		65D6A08D27A866F9003BDC8F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 65D6A06F27A866F7003BDC8F /* Wikiloosa */;
+			targetProxy = 65D6A08C27A866F9003BDC8F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		65D6A09327A866F9003BDC8F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		65D6A09427A866F9003BDC8F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		65D6A09627A866F9003BDC8F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = Wikiloosa/Wikiloosa.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Wikiloosa/Preview Content\"";
+				DEVELOPMENT_TEAM = S25J8S9S24;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = jarexi.Wikiloosa;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		65D6A09727A866F9003BDC8F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = Wikiloosa/Wikiloosa.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Wikiloosa/Preview Content\"";
+				DEVELOPMENT_TEAM = S25J8S9S24;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = jarexi.Wikiloosa;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		65D6A09927A866F9003BDC8F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = S25J8S9S24;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 12.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = jarexi.WikiloosaTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Wikiloosa.app/Contents/MacOS/Wikiloosa";
+			};
+			name = Debug;
+		};
+		65D6A09A27A866F9003BDC8F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = S25J8S9S24;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 12.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = jarexi.WikiloosaTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Wikiloosa.app/Contents/MacOS/Wikiloosa";
+			};
+			name = Release;
+		};
+		65D6A09C27A866F9003BDC8F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = S25J8S9S24;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = jarexi.WikiloosaUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = Wikiloosa;
+			};
+			name = Debug;
+		};
+		65D6A09D27A866F9003BDC8F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = S25J8S9S24;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = jarexi.WikiloosaUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = Wikiloosa;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		65D6A06B27A866F7003BDC8F /* Build configuration list for PBXProject "Wikiloosa" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				65D6A09327A866F9003BDC8F /* Debug */,
+				65D6A09427A866F9003BDC8F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		65D6A09527A866F9003BDC8F /* Build configuration list for PBXNativeTarget "Wikiloosa" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				65D6A09627A866F9003BDC8F /* Debug */,
+				65D6A09727A866F9003BDC8F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		65D6A09827A866F9003BDC8F /* Build configuration list for PBXNativeTarget "WikiloosaTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				65D6A09927A866F9003BDC8F /* Debug */,
+				65D6A09A27A866F9003BDC8F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		65D6A09B27A866F9003BDC8F /* Build configuration list for PBXNativeTarget "WikiloosaUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				65D6A09C27A866F9003BDC8F /* Debug */,
+				65D6A09D27A866F9003BDC8F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 65D6A06827A866F7003BDC8F /* Project object */;
+}
