@@ -14,6 +14,7 @@
 		65D6A08627A866F9003BDC8F /* WikiloosaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65D6A08527A866F9003BDC8F /* WikiloosaTests.swift */; };
 		65D6A09027A866F9003BDC8F /* WikiloosaUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65D6A08F27A866F9003BDC8F /* WikiloosaUITests.swift */; };
 		65D6A09227A866F9003BDC8F /* WikiloosaUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65D6A09127A866F9003BDC8F /* WikiloosaUITestsLaunchTests.swift */; };
+		65D6A0A027A867F6003BDC8F /* WikipediaKit in Frameworks */ = {isa = PBXBuildFile; productRef = 65D6A09F27A867F6003BDC8F /* WikipediaKit */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -52,6 +53,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				65D6A0A027A867F6003BDC8F /* WikipediaKit in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -145,6 +147,9 @@
 			dependencies = (
 			);
 			name = Wikiloosa;
+			packageProductDependencies = (
+				65D6A09F27A867F6003BDC8F /* WikipediaKit */,
+			);
 			productName = Wikiloosa;
 			productReference = 65D6A07027A866F7003BDC8F /* Wikiloosa.app */;
 			productType = "com.apple.product-type.application";
@@ -217,6 +222,9 @@
 				Base,
 			);
 			mainGroup = 65D6A06727A866F7003BDC8F;
+			packageReferences = (
+				65D6A09E27A867F6003BDC8F /* XCRemoteSwiftPackageReference "WikipediaKit" */,
+			);
 			productRefGroup = 65D6A07127A866F7003BDC8F /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -578,6 +586,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		65D6A09E27A867F6003BDC8F /* XCRemoteSwiftPackageReference "WikipediaKit" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Raureif/WikipediaKit";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 2.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		65D6A09F27A867F6003BDC8F /* WikipediaKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 65D6A09E27A867F6003BDC8F /* XCRemoteSwiftPackageReference "WikipediaKit" */;
+			productName = WikipediaKit;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 65D6A06827A866F7003BDC8F /* Project object */;
 }
