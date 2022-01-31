@@ -1,5 +1,2 @@
 #  Wikiloosa
-A wikipedia client for macOS
-
-
-
+A wikipedia client for 

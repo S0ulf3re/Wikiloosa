@@ -16,6 +16,7 @@
 		65D6A09227A866F9003BDC8F /* WikiloosaUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65D6A09127A866F9003BDC8F /* WikiloosaUITestsLaunchTests.swift */; };
 		65D6A0A027A867F6003BDC8F /* WikipediaKit in Frameworks */ = {isa = PBXBuildFile; productRef = 65D6A09F27A867F6003BDC8F /* WikipediaKit */; };
 		65D6A0A327A869A7003BDC8F /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 65D6A0A227A869A7003BDC8F /* .gitignore */; };
+		65D6A0A527A86B30003BDC8F /* Secrets.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65D6A0A427A86B30003BDC8F /* Secrets.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		65D6A09127A866F9003BDC8F /* WikiloosaUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WikiloosaUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		65D6A0A127A8691D003BDC8F /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		65D6A0A227A869A7003BDC8F /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
+		65D6A0A427A86B30003BDC8F /* Secrets.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Secrets.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -107,6 +109,7 @@
 				65D6A07C27A866F9003BDC8F /* Wikiloosa.entitlements */,
 				65D6A07927A866F9003BDC8F /* Preview Content */,
 				65D6A0A227A869A7003BDC8F /* .gitignore */,
+				65D6A0A427A86B30003BDC8F /* Secrets.swift */,
 			);
 			path = Wikiloosa;
 			sourceTree = "<group>";
@@ -274,6 +277,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				65D6A07627A866F7003BDC8F /* ContentView.swift in Sources */,
+				65D6A0A527A86B30003BDC8F /* Secrets.swift in Sources */,
 				65D6A07427A866F7003BDC8F /* WikiloosaApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -365,6 +369,7 @@
 				MACOSX_DEPLOYMENT_TARGET = 12.1;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
+				NEW_SETTING = "";
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = macosx;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
@@ -420,6 +425,7 @@
 				MACOSX_DEPLOYMENT_TARGET = 12.1;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
+				NEW_SETTING = "";
 				SDKROOT = macosx;
 				SWIFT_COMPILATION_MODE = wholemodule;
 				SWIFT_OPTIMIZATION_LEVEL = "-O";
