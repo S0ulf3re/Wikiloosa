@@ -15,6 +15,7 @@
 		65D6A09027A866F9003BDC8F /* WikiloosaUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65D6A08F27A866F9003BDC8F /* WikiloosaUITests.swift */; };
 		65D6A09227A866F9003BDC8F /* WikiloosaUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65D6A09127A866F9003BDC8F /* WikiloosaUITestsLaunchTests.swift */; };
 		65D6A0A027A867F6003BDC8F /* WikipediaKit in Frameworks */ = {isa = PBXBuildFile; productRef = 65D6A09F27A867F6003BDC8F /* WikipediaKit */; };
+		65D6A0A327A869A7003BDC8F /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 65D6A0A227A869A7003BDC8F /* .gitignore */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		65D6A08F27A866F9003BDC8F /* WikiloosaUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WikiloosaUITests.swift; sourceTree = "<group>"; };
 		65D6A09127A866F9003BDC8F /* WikiloosaUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WikiloosaUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		65D6A0A127A8691D003BDC8F /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		65D6A0A227A869A7003BDC8F /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -104,6 +106,7 @@
 				65D6A07727A866F9003BDC8F /* Assets.xcassets */,
 				65D6A07C27A866F9003BDC8F /* Wikiloosa.entitlements */,
 				65D6A07927A866F9003BDC8F /* Preview Content */,
+				65D6A0A227A869A7003BDC8F /* .gitignore */,
 			);
 			path = Wikiloosa;
 			sourceTree = "<group>";
@@ -244,6 +247,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				65D6A07B27A866F9003BDC8F /* Preview Assets.xcassets in Resources */,
+				65D6A0A327A869A7003BDC8F /* .gitignore in Resources */,
 				65D6A07827A866F9003BDC8F /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
