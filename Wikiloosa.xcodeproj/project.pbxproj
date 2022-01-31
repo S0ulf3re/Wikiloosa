@@ -46,6 +46,7 @@
 		65D6A08B27A866F9003BDC8F /* WikiloosaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WikiloosaUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		65D6A08F27A866F9003BDC8F /* WikiloosaUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WikiloosaUITests.swift; sourceTree = "<group>"; };
 		65D6A09127A866F9003BDC8F /* WikiloosaUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WikiloosaUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		65D6A0A127A8691D003BDC8F /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +78,7 @@
 		65D6A06727A866F7003BDC8F = {
 			isa = PBXGroup;
 			children = (
+				65D6A0A127A8691D003BDC8F /* README.md */,
 				65D6A07227A866F7003BDC8F /* Wikiloosa */,
 				65D6A08427A866F9003BDC8F /* WikiloosaTests */,
 				65D6A08E27A866F9003BDC8F /* WikiloosaUITests */,
