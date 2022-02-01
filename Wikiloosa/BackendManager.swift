@@ -8,6 +8,6 @@
 import Foundation
 import WikipediaKit
 
-func getAPIKey() -> String {
+func getAPIKey() {
     
 }
