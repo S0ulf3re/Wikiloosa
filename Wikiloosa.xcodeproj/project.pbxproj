@@ -148,6 +148,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 65D6A09527A866F9003BDC8F /* Build configuration list for PBXNativeTarget "Wikiloosa" */;
 			buildPhases = (
+				65D6A0AE27A9A430003BDC8F /* Check everything with swiftlint */,
 				65D6A06C27A866F7003BDC8F /* Sources */,
 				65D6A06D27A866F7003BDC8F /* Frameworks */,
 				65D6A06E27A866F7003BDC8F /* Resources */,
@@ -272,6 +273,27 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		65D6A0AE27A9A430003BDC8F /* Check everything with swiftlint */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = "Check everything with swiftlint";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "export PATH=\"$PATH:/opt/homebrew/bin\"\n\nif which swiftlint >/dev/null; then\n  swiftlint\nelse\n  echo \"warning: SwiftLint not installed, download from https://github.com/realm/SwiftLint\"\nfi\n";
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		65D6A06C27A866F7003BDC8F /* Sources */ = {
