@@ -49,6 +49,7 @@
 		65D6A09127A866F9003BDC8F /* WikiloosaUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WikiloosaUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		65D6A0A127A8691D003BDC8F /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		65D6A0A227A869A7003BDC8F /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
+		65D6A0AB27A99F82003BDC8F /* Secrets.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Secrets.xcconfig; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +104,7 @@
 			children = (
 				65D6A07327A866F7003BDC8F /* WikiloosaApp.swift */,
 				65D6A07527A866F7003BDC8F /* ContentView.swift */,
+				65D6A0AB27A99F82003BDC8F /* Secrets.xcconfig */,
 				65D6A07727A866F9003BDC8F /* Assets.xcassets */,
 				65D6A07C27A866F9003BDC8F /* Wikiloosa.entitlements */,
 				65D6A07927A866F9003BDC8F /* Preview Content */,
