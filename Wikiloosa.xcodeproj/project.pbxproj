@@ -15,6 +15,8 @@
 		65D6A09027A866F9003BDC8F /* WikiloosaUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65D6A08F27A866F9003BDC8F /* WikiloosaUITests.swift */; };
 		65D6A09227A866F9003BDC8F /* WikiloosaUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65D6A09127A866F9003BDC8F /* WikiloosaUITestsLaunchTests.swift */; };
 		65D6A0A027A867F6003BDC8F /* WikipediaKit in Frameworks */ = {isa = PBXBuildFile; productRef = 65D6A09F27A867F6003BDC8F /* WikipediaKit */; };
+		65D6A0A327A869A7003BDC8F /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 65D6A0A227A869A7003BDC8F /* .gitignore */; };
+		65D6A0AD27A99FCD003BDC8F /* BackendManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65D6A0AC27A99FCD003BDC8F /* BackendManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -46,6 +48,9 @@
 		65D6A08B27A866F9003BDC8F /* WikiloosaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WikiloosaUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		65D6A08F27A866F9003BDC8F /* WikiloosaUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WikiloosaUITests.swift; sourceTree = "<group>"; };
 		65D6A09127A866F9003BDC8F /* WikiloosaUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WikiloosaUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		65D6A0A227A869A7003BDC8F /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
+		65D6A0AB27A99F82003BDC8F /* Secrets.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Secrets.xcconfig; sourceTree = "<group>"; };
+		65D6A0AC27A99FCD003BDC8F /* BackendManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackendManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,10 +103,13 @@
 			isa = PBXGroup;
 			children = (
 				65D6A07327A866F7003BDC8F /* WikiloosaApp.swift */,
+				65D6A0AC27A99FCD003BDC8F /* BackendManager.swift */,
 				65D6A07527A866F7003BDC8F /* ContentView.swift */,
+				65D6A0AB27A99F82003BDC8F /* Secrets.xcconfig */,
 				65D6A07727A866F9003BDC8F /* Assets.xcassets */,
 				65D6A07C27A866F9003BDC8F /* Wikiloosa.entitlements */,
 				65D6A07927A866F9003BDC8F /* Preview Content */,
+				65D6A0A227A869A7003BDC8F /* .gitignore */,
 			);
 			path = Wikiloosa;
 			sourceTree = "<group>";
@@ -138,6 +146,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 65D6A09527A866F9003BDC8F /* Build configuration list for PBXNativeTarget "Wikiloosa" */;
 			buildPhases = (
+				65D6A0AE27A9A430003BDC8F /* Check everything with swiftlint */,
 				65D6A06C27A866F7003BDC8F /* Sources */,
 				65D6A06D27A866F7003BDC8F /* Frameworks */,
 				65D6A06E27A866F7003BDC8F /* Resources */,
@@ -242,6 +251,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				65D6A07B27A866F9003BDC8F /* Preview Assets.xcassets in Resources */,
+				65D6A0A327A869A7003BDC8F /* .gitignore in Resources */,
 				65D6A07827A866F9003BDC8F /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -262,11 +272,33 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		65D6A0AE27A9A430003BDC8F /* Check everything with swiftlint */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = "Check everything with swiftlint";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "export PATH=\"$PATH:/opt/homebrew/bin\"\n\nif which swiftlint >/dev/null; then\n  swiftlint\nelse\n  echo \"warning: SwiftLint not installed, download from https://github.com/realm/SwiftLint\"\nfi\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		65D6A06C27A866F7003BDC8F /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				65D6A0AD27A99FCD003BDC8F /* BackendManager.swift in Sources */,
 				65D6A07627A866F7003BDC8F /* ContentView.swift in Sources */,
 				65D6A07427A866F7003BDC8F /* WikiloosaApp.swift in Sources */,
 			);
@@ -307,6 +339,7 @@
 /* Begin XCBuildConfiguration section */
 		65D6A09327A866F9003BDC8F /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 65D6A0AB27A99F82003BDC8F /* Secrets.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ANALYZER_NONNULL = YES;
@@ -359,6 +392,7 @@
 				MACOSX_DEPLOYMENT_TARGET = 12.1;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
+				NEW_SETTING = "";
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = macosx;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
@@ -370,6 +404,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				API_KEY = "\"\"";
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
@@ -414,6 +449,7 @@
 				MACOSX_DEPLOYMENT_TARGET = 12.1;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
+				NEW_SETTING = "";
 				SDKROOT = macosx;
 				SWIFT_COMPILATION_MODE = wholemodule;
 				SWIFT_OPTIMIZATION_LEVEL = "-O";
