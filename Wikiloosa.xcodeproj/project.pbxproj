@@ -36,6 +36,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		6580E21427B468B000D472CB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 		65D6A07027A866F7003BDC8F /* Wikiloosa.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Wikiloosa.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		65D6A07327A866F7003BDC8F /* WikiloosaApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WikiloosaApp.swift; sourceTree = "<group>"; };
 		65D6A07527A866F7003BDC8F /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -100,6 +101,7 @@
 		65D6A07227A866F7003BDC8F /* Wikiloosa */ = {
 			isa = PBXGroup;
 			children = (
+				6580E21427B468B000D472CB /* Info.plist */,
 				65D6A07327A866F7003BDC8F /* WikiloosaApp.swift */,
 				65D6A07527A866F7003BDC8F /* ContentView.swift */,
 				65D6A0AB27A99F82003BDC8F /* Secrets.xcconfig */,
@@ -466,6 +468,7 @@
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Wikiloosa/Info.plist;
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -493,6 +496,7 @@
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Wikiloosa/Info.plist;
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",

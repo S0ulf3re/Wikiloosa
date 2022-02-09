@@ -7,6 +7,17 @@
 
 import SwiftUI
 
+enum APIKeyProblems: Error {
+        case noAPIKeyProvided
+        case invalidAPIKey
+    }
+
+func testAPIKey() throws -> String {
+    guard let infoDictionary: [String: Any] = Bundle.main.infoDictionary else { throw APIKeyProblems.noAPIKeyProvided }
+    guard let APIKey: String = infoDictionary["APIKey"] as? String else { return "" }
+   return APIKey
+}
+
 struct ContentView: View {
     var body: some View {
         Text("Hello, world!")
