@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6580E21827B58B0400D472CB /* SecretsManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6580E21727B58B0400D472CB /* SecretsManager.swift */; };
 		65D6A07427A866F7003BDC8F /* WikiloosaApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65D6A07327A866F7003BDC8F /* WikiloosaApp.swift */; };
 		65D6A07627A866F7003BDC8F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65D6A07527A866F7003BDC8F /* ContentView.swift */; };
 		65D6A07827A866F9003BDC8F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 65D6A07727A866F9003BDC8F /* Assets.xcassets */; };
@@ -37,6 +38,7 @@
 
 /* Begin PBXFileReference section */
 		6580E21427B468B000D472CB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		6580E21727B58B0400D472CB /* SecretsManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecretsManager.swift; sourceTree = "<group>"; };
 		65D6A07027A866F7003BDC8F /* Wikiloosa.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Wikiloosa.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		65D6A07327A866F7003BDC8F /* WikiloosaApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WikiloosaApp.swift; sourceTree = "<group>"; };
 		65D6A07527A866F7003BDC8F /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -105,6 +107,7 @@
 				65D6A07327A866F7003BDC8F /* WikiloosaApp.swift */,
 				65D6A07527A866F7003BDC8F /* ContentView.swift */,
 				65D6A0AB27A99F82003BDC8F /* Secrets.xcconfig */,
+				6580E21727B58B0400D472CB /* SecretsManager.swift */,
 				65D6A07727A866F9003BDC8F /* Assets.xcassets */,
 				65D6A07C27A866F9003BDC8F /* Wikiloosa.entitlements */,
 				65D6A07927A866F9003BDC8F /* Preview Content */,
@@ -297,6 +300,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6580E21827B58B0400D472CB /* SecretsManager.swift in Sources */,
 				65D6A07627A866F7003BDC8F /* ContentView.swift in Sources */,
 				65D6A07427A866F7003BDC8F /* WikiloosaApp.swift in Sources */,
 			);
