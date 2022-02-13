@@ -37,6 +37,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		657BBEF527B97F0C0057CF80 /* TheWikiloosaManifesto.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = TheWikiloosaManifesto.md; sourceTree = "<group>"; };
 		6580E21427B468B000D472CB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 		6580E21727B58B0400D472CB /* SecretsManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecretsManager.swift; sourceTree = "<group>"; };
 		65D6A07027A866F7003BDC8F /* Wikiloosa.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Wikiloosa.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -83,6 +84,7 @@
 		657BBEF227B97D300057CF80 /* UI Designs */ = {
 			isa = PBXGroup;
 			children = (
+				657BBEF527B97F0C0057CF80 /* TheWikiloosaManifesto.md */,
 			);
 			path = "UI Designs";
 			sourceTree = "<group>";
