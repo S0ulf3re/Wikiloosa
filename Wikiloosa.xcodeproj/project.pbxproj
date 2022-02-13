@@ -80,6 +80,13 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		657BBEF227B97D300057CF80 /* UI Designs */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "UI Designs";
+			sourceTree = "<group>";
+		};
 		65D6A06727A866F7003BDC8F = {
 			isa = PBXGroup;
 			children = (
@@ -103,6 +110,7 @@
 		65D6A07227A866F7003BDC8F /* Wikiloosa */ = {
 			isa = PBXGroup;
 			children = (
+				657BBEF227B97D300057CF80 /* UI Designs */,
 				6580E21427B468B000D472CB /* Info.plist */,
 				65D6A07327A866F7003BDC8F /* WikiloosaApp.swift */,
 				65D6A07527A866F7003BDC8F /* ContentView.swift */,
