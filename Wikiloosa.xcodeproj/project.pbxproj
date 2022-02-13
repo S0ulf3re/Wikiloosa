@@ -85,8 +85,16 @@
 			isa = PBXGroup;
 			children = (
 				657BBEF527B97F0C0057CF80 /* TheWikiloosaManifesto.md */,
+				657BBEF627B987400057CF80 /* Ideas */,
 			);
 			path = "UI Designs";
+			sourceTree = "<group>";
+		};
+		657BBEF627B987400057CF80 /* Ideas */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Ideas;
 			sourceTree = "<group>";
 		};
 		65D6A06727A866F7003BDC8F = {
