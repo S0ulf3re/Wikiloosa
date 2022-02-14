@@ -30,4 +30,6 @@ Once you have made your changes, Wikiloosa will automatically submit your change
 
 Hotfixing is designed for doing **minor** edits (As defined by Wikipedia) and is designed to stay out of the way when highlighting large sections of text. You will not be able to add or remove words with Hotfixing, only modify them. It also won't be enabled by default or have it's own section, to stay out of the way of users who are only trying to highlight text.
 
-To reduce the burden of revising from other editors, each Hotfix will be made as it's own individual edit. This way, other editors can easily undo it should someone accidentally Hotfix something that was already correct.
+To reduce the burden of revising on other editors in thee instance someone hotfixes something that was already correct or en *sic*, each Hotfix will be made as it's own individual edit. This way, other editors can easily undo it should someone accidentally Hotfix something that was already correct.
+
+Hotfixing will also be unavailable while in edit mode to avoid redundency
