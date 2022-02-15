@@ -20,7 +20,6 @@ The
 
 Startup event process:
 
-[apple dev resource](https://docs-assets.developer.apple.com/published/dd1b7996c3/rendered2x-1635759039.png)
 
 
 1. App launches 
