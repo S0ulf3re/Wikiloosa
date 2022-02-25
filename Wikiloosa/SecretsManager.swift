@@ -7,20 +7,15 @@
 
 import Foundation
 
-class CoreSecrets {
-    var APIKey: String {
+struct CoreSecrets {
+    var apiKey: String {
         guard let infoDictionary: [String: Any] = Bundle.main.infoDictionary else { return "N/A" }
-        guard let APIKey: String = infoDictionary["APIKey"] as? String else { return "" }
-       return APIKey
+        guard let apiKey: String = infoDictionary["APIKey"] as? String else { return "" }
+       return apiKey
     }
     var wikipediaEmail: String {
         guard let infoDictionary: [String: Any] = Bundle.main.infoDictionary else { return "N/A" }
-        guard let APIKey: String = infoDictionary["WIKIPEDIA_EMAIL"] as? String else { return "" }
-       return APIKey
-    }
-    var userAgent: String {
-        guard let infoDictionary: [String: Any] = Bundle.main.infoDictionary else { return "N/A" }
-        guard let APIKey: String = infoDictionary["USER_AGENT"] as? String else { return "" }
-       return APIKey
+        guard let wikipediaEmail: String = infoDictionary["WIKIPEDIA_EMAIL"] as? String else { return "" }
+       return wikipediaEmail
     }
 }
